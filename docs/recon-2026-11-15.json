@@ -1,0 +1,614 @@
+{
+  "rpc": "https://bsc-dataseed.binance.org",
+  "contracts": {
+    "solvd": {
+      "address": "0x59661d7F8f996F687CD98c116cCaf66eFd254076",
+      "code_len": 11751,
+      "getters": {
+        "totalSupply()": {
+          "raw": "0x0000000000000000000000000000000000000000000000000000000000001000",
+          "decoded": 4096
+        },
+        "maxSupply()": {
+          "error": "execution reverted: 0x"
+        },
+        "MAX_SUPPLY()": {
+          "raw": "0x0000000000000000000000000000000000000000000000000000000000001000",
+          "decoded": 4096
+        },
+        "totalMinted()": {
+          "raw": "0x0000000000000000000000000000000000000000000000000000000000001000",
+          "decoded": 4096
+        },
+        "mintPrice()": {
+          "error": "execution reverted: 0x"
+        },
+        "price()": {
+          "error": "execution reverted: 0x"
+        },
+        "paused()": {
+          "raw": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "decoded": 0
+        },
+        "owner()": {
+          "raw": "0x0000000000000000000000009fa60a8af9c7d78b83cb3158826026809c839bd1",
+          "decoded": 911432374677787930283399268887482650581996379089
+        },
+        "name()": {
+          "raw": "0x00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000005534f4c5644000000000000000000000000000000000000000000000000000000",
+          "decoded": "SOLVD"
+        },
+        "symbol()": {
+          "raw": "0x00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000005534f4c5644000000000000000000000000000000000000000000000000000000",
+          "decoded": "SOLVD"
+        },
+        "decimals()": {
+          "error": "execution reverted: 0x"
+        },
+        "MAX_PER_WALLET()": {
+          "error": "execution reverted: 0x"
+        },
+        "maxPerWallet()": {
+          "error": "execution reverted: 0x"
+        },
+        "remainingSupply()": {
+          "error": "execution reverted: 0x"
+        },
+        "availableSupply()": {
+          "error": "execution reverted: 0x"
+        }
+      }
+    },
+    "forge": {
+      "address": "0x85294Fd5CffB964E318302B0C03C8f4Ae7BF2fe3",
+      "code_len": 9688,
+      "getters": {
+        "totalSupply()": {
+          "error": "execution reverted: 0x"
+        },
+        "maxSupply()": {
+          "error": "execution reverted: 0x"
+        },
+        "MAX_SUPPLY()": {
+          "raw": "0x0000000000000000000000000000000000000000000000000000000000001388",
+          "decoded": 5000
+        },
+        "totalMinted()": {
+          "raw": "0x00000000000000000000000000000000000000000000000000000000000009ea",
+          "decoded": 2538
+        },
+        "mintPrice()": {
+          "error": "execution reverted: 0x"
+        },
+        "price()": {
+          "error": "execution reverted: 0x"
+        },
+        "paused()": {
+          "error": "execution reverted: 0x"
+        },
+        "owner()": {
+          "raw": "0x0000000000000000000000009958761ccb3b07c16faf5a8bec835bc1f75b3b36",
+          "decoded": 875448342561304149500966328652705955478742186806
+        },
+        "name()": {
+          "raw": "0x0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000e466f72676520526f626f74696373000000000000000000000000000000000000",
+          "decoded": "Forge Robotics"
+        },
+        "symbol()": {
+          "raw": "0x000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000044652474500000000000000000000000000000000000000000000000000000000",
+          "decoded": "FRGE"
+        },
+        "decimals()": {
+          "error": "execution reverted: 0x"
+        },
+        "MAX_PER_WALLET()": {
+          "raw": "0x0000000000000000000000000000000000000000000000000000000000000002",
+          "decoded": 2
+        },
+        "maxPerWallet()": {
+          "error": "execution reverted: 0x"
+        },
+        "remainingSupply()": {
+          "raw": "0x000000000000000000000000000000000000000000000000000000000000099e",
+          "decoded": 2462
+        },
+        "availableSupply()": {
+          "error": "execution reverted: 0x"
+        }
+      }
+    },
+    "pacture-mint": {
+      "address": "0x95AF9fe16fE5c1741b5E3F1b3b045a8c2470eca9",
+      "code_len": 6996,
+      "getters": {
+        "totalSupply()": {
+          "error": "execution reverted: 0x"
+        },
+        "maxSupply()": {
+          "error": "execution reverted: 0x"
+        },
+        "MAX_SUPPLY()": {
+          "error": "execution reverted: 0x"
+        },
+        "totalMinted()": {
+          "error": "execution reverted: 0x"
+        },
+        "mintPrice()": {
+          "error": "execution reverted: 0x"
+        },
+        "price()": {
+          "error": "execution reverted: 0x"
+        },
+        "paused()": {
+          "error": "execution reverted: 0x"
+        },
+        "owner()": {
+          "error": "execution reverted: 0x"
+        },
+        "name()": {
+          "error": "execution reverted: 0x"
+        },
+        "symbol()": {
+          "error": "execution reverted: 0x"
+        },
+        "decimals()": {
+          "error": "execution reverted: 0x"
+        },
+        "MAX_PER_WALLET()": {
+          "error": "execution reverted: 0x"
+        },
+        "maxPerWallet()": {
+          "error": "execution reverted: 0x"
+        },
+        "remainingSupply()": {
+          "error": "execution reverted: 0x"
+        },
+        "availableSupply()": {
+          "error": "execution reverted: 0x"
+        }
+      }
+    },
+    "pacture-token": {
+      "address": "0x10b80088fDAf9363d83671BE66b64f231f9e92f6",
+      "code_len": 2722,
+      "getters": {
+        "totalSupply()": {
+          "raw": "0x0000000000000000000000000000000000000001512c4c02f17045a05e000000",
+          "decoded": 104350000000000000000000000000
+        },
+        "maxSupply()": {
+          "error": "execution reverted: 0x"
+        },
+        "MAX_SUPPLY()": {
+          "raw": "0x0000000000000000000000000000000000000001ce0ed3dd4577a20598000000",
+          "decoded": 143000000000000000000000000000
+        },
+        "totalMinted()": {
+          "error": "execution reverted: 0x"
+        },
+        "mintPrice()": {
+          "error": "execution reverted: 0x"
+        },
+        "price()": {
+          "error": "execution reverted: 0x"
+        },
+        "paused()": {
+          "error": "execution reverted: 0x"
+        },
+        "owner()": {
+          "error": "execution reverted: 0x"
+        },
+        "name()": {
+          "raw": "0x000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000075041435455524500000000000000000000000000000000000000000000000000",
+          "decoded": "PACTURE"
+        },
+        "symbol()": {
+          "raw": "0x000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000075041435455524500000000000000000000000000000000000000000000000000",
+          "decoded": "PACTURE"
+        },
+        "decimals()": {
+          "raw": "0x0000000000000000000000000000000000000000000000000000000000000012",
+          "decoded": 18
+        },
+        "MAX_PER_WALLET()": {
+          "error": "execution reverted: 0x"
+        },
+        "maxPerWallet()": {
+          "error": "execution reverted: 0x"
+        },
+        "remainingSupply()": {
+          "error": "execution reverted: 0x"
+        },
+        "availableSupply()": {
+          "error": "execution reverted: 0x"
+        }
+      }
+    },
+    "claf-eye": {
+      "address": "0x1c759C4e075103b5B250DB5114B832b17B99C456",
+      "code_len": 18684,
+      "getters": {
+        "totalSupply()": {
+          "raw": "0x0000000000000000000000000000000000000000000000000000000000001be0",
+          "decoded": 7136
+        },
+        "maxSupply()": {
+          "error": "execution reverted: 0x"
+        },
+        "MAX_SUPPLY()": {
+          "raw": "0x0000000000000000000000000000000000000000000000000000000000004650",
+          "decoded": 18000
+        },
+        "totalMinted()": {
+          "error": "execution reverted: 0x"
+        },
+        "mintPrice()": {
+          "error": "execution reverted: 0x"
+        },
+        "price()": {
+          "error": "execution reverted: 0x"
+        },
+        "paused()": {
+          "error": "execution reverted: 0x"
+        },
+        "owner()": {
+          "raw": "0x00000000000000000000000099990955d75409786f58ac9fea5bf62571b51fe1",
+          "decoded": 876888415172217570783715001731862896836435320801
+        },
+        "name()": {
+          "raw": "0x0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000c54686520436c6166204579650000000000000000000000000000000000000000",
+          "decoded": "The Claf Eye"
+        },
+        "symbol()": {
+          "raw": "0x000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000034559450000000000000000000000000000000000000000000000000000000000",
+          "decoded": "EYE"
+        },
+        "decimals()": {
+          "error": "execution reverted: 0x"
+        },
+        "MAX_PER_WALLET()": {
+          "raw": "0x000000000000000000000000000000000000000000000000000000000000001e",
+          "decoded": 30
+        },
+        "maxPerWallet()": {
+          "error": "execution reverted: 0x"
+        },
+        "remainingSupply()": {
+          "error": "execution reverted: 0x"
+        },
+        "availableSupply()": {
+          "error": "execution reverted: 0x"
+        }
+      }
+    },
+    "unsolvable": {
+      "address": "0x9e95Da84f1bcc8E5570DAAc99A37EB3f95270904",
+      "code_len": 9981,
+      "getters": {
+        "totalSupply()": {
+          "raw": "0x00000000000000000000000000000000000000000000000000000000000000ce",
+          "decoded": 206
+        },
+        "maxSupply()": {
+          "error": "execution reverted: 0x"
+        },
+        "MAX_SUPPLY()": {
+          "raw": "0x0000000000000000000000000000000000000000000000000000000000000d05",
+          "decoded": 3333
+        },
+        "totalMinted()": {
+          "error": "execution reverted: 0x"
+        },
+        "mintPrice()": {
+          "error": "execution reverted: 0x"
+        },
+        "price()": {
+          "error": "execution reverted: 0x"
+        },
+        "paused()": {
+          "error": "execution reverted: 0x"
+        },
+        "owner()": {
+          "raw": "0x00000000000000000000000095d5122c6ef708a20087b73b40c0fa9ebf093d42",
+          "decoded": 855391266721107780000419652642237111033091669314
+        },
+        "name()": {
+          "raw": "0x0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000a554e534f4c5641424c4500000000000000000000000000000000000000000000",
+          "decoded": "UNSOLVABLE"
+        },
+        "symbol()": {
+          "raw": "0x0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000a554e534f4c5641424c4500000000000000000000000000000000000000000000",
+          "decoded": "UNSOLVABLE"
+        },
+        "decimals()": {
+          "error": "execution reverted: 0x"
+        },
+        "MAX_PER_WALLET()": {
+          "error": "execution reverted: 0x"
+        },
+        "maxPerWallet()": {
+          "error": "execution reverted: 0x"
+        },
+        "remainingSupply()": {
+          "error": "execution reverted: 0x"
+        },
+        "availableSupply()": {
+          "error": "execution reverted: 0x"
+        }
+      }
+    },
+    "bagent-proxy": {
+      "address": "0x9CA1A3eeA74829aA5011c56386b226DB472D0F4f",
+      "code_len": 134,
+      "getters": {
+        "totalSupply()": {
+          "error": "execution reverted: 0x"
+        },
+        "maxSupply()": {
+          "error": "execution reverted: 0x"
+        },
+        "MAX_SUPPLY()": {
+          "error": "execution reverted: 0x"
+        },
+        "totalMinted()": {
+          "raw": "0x0000000000000000000000000000000000000000000000000000000000005ae0",
+          "decoded": 23264
+        },
+        "mintPrice()": {
+          "error": "execution reverted: 0x"
+        },
+        "price()": {
+          "error": "execution reverted: 0x"
+        },
+        "paused()": {
+          "error": "execution reverted: 0x"
+        },
+        "owner()": {
+          "raw": "0x000000000000000000000000a2c707bd2f004ec11616efdf6ab2de7324d97d19",
+          "decoded": 929295027329813780437742932545419249657516227865
+        },
+        "name()": {
+          "error": "execution reverted: 0x"
+        },
+        "symbol()": {
+          "error": "execution reverted: 0x"
+        },
+        "decimals()": {
+          "error": "execution reverted: 0x"
+        },
+        "MAX_PER_WALLET()": {
+          "error": "execution reverted: 0x"
+        },
+        "maxPerWallet()": {
+          "error": "execution reverted: 0x"
+        },
+        "remainingSupply()": {
+          "error": "execution reverted: 0x"
+        },
+        "availableSupply()": {
+          "error": "execution reverted: 0x"
+        }
+      }
+    },
+    "bagent-token": {
+      "address": "0xb50dC583cC6F83750c36789F52d51E12dA664444",
+      "code_len": 6771,
+      "getters": {
+        "totalSupply()": {
+          "raw": "0x00000000000000000000000000000000000000059bef1070a0be9cedf0000000",
+          "decoded": 444400000000000000000000000000
+        },
+        "maxSupply()": {
+          "error": "execution reverted: 0x"
+        },
+        "MAX_SUPPLY()": {
+          "raw": "0x00000000000000000000000000000000000000059bef1070a0be9cedf0000000",
+          "decoded": 444400000000000000000000000000
+        },
+        "totalMinted()": {
+          "error": "execution reverted: 0x"
+        },
+        "mintPrice()": {
+          "error": "execution reverted: 0x"
+        },
+        "price()": {
+          "error": "execution reverted: 0x"
+        },
+        "paused()": {
+          "error": "execution reverted: 0x"
+        },
+        "owner()": {
+          "raw": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "decoded": 0
+        },
+        "name()": {
+          "raw": "0x0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000a424f4e44204147454e5400000000000000000000000000000000000000000000",
+          "decoded": "BOND AGENT"
+        },
+        "symbol()": {
+          "raw": "0x00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000006424147454e540000000000000000000000000000000000000000000000000000",
+          "decoded": "BAGENT"
+        },
+        "decimals()": {
+          "raw": "0x0000000000000000000000000000000000000000000000000000000000000012",
+          "decoded": 18
+        },
+        "MAX_PER_WALLET()": {
+          "error": "execution reverted: 0x"
+        },
+        "maxPerWallet()": {
+          "error": "execution reverted: 0x"
+        },
+        "remainingSupply()": {
+          "error": "execution reverted: 0x"
+        },
+        "availableSupply()": {
+          "error": "execution reverted: 0x"
+        }
+      }
+    },
+    "agent-cards": {
+      "address": "0x19f125dA1985033f102CA7746Cbd1F6f512CFACd",
+      "code_len": 21703,
+      "getters": {
+        "totalSupply()": {
+          "raw": "0x000000000000000000000000000000000000000000000000000000000000207e",
+          "decoded": 8318
+        },
+        "maxSupply()": {
+          "error": "execution reverted: 0x"
+        },
+        "MAX_SUPPLY()": {
+          "error": "execution reverted: 0x"
+        },
+        "totalMinted()": {
+          "error": "execution reverted: 0x"
+        },
+        "mintPrice()": {
+          "error": "execution reverted: 0x"
+        },
+        "price()": {
+          "error": "execution reverted: 0x"
+        },
+        "paused()": {
+          "error": "execution reverted: 0x"
+        },
+        "owner()": {
+          "raw": "0x00000000000000000000000041d2ba8ac1d6a765f92664db9535f40dfd8b0a99",
+          "decoded": 375783806697046492386032706151624658176768150169
+        },
+        "name()": {
+          "raw": "0x0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000b4167656e74204361726473000000000000000000000000000000000000000000",
+          "decoded": "Agent Cards"
+        },
+        "symbol()": {
+          "raw": "0x000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000054143415244000000000000000000000000000000000000000000000000000000",
+          "decoded": "ACARD"
+        },
+        "decimals()": {
+          "error": "execution reverted: 0x"
+        },
+        "MAX_PER_WALLET()": {
+          "error": "execution reverted: 0x"
+        },
+        "maxPerWallet()": {
+          "error": "execution reverted: 0x"
+        },
+        "remainingSupply()": {
+          "error": "execution reverted: 0x"
+        },
+        "availableSupply()": {
+          "error": "execution reverted: 0x"
+        }
+      }
+    },
+    "hash21-pool": {
+      "address": "0x6884D40B10c55A6c2faB2D3c829d41c3C798279D",
+      "code_len": 9180,
+      "getters": {
+        "totalSupply()": {
+          "error": "execution reverted: 0x"
+        },
+        "maxSupply()": {
+          "error": "execution reverted: 0x"
+        },
+        "MAX_SUPPLY()": {
+          "error": "execution reverted: 0x"
+        },
+        "totalMinted()": {
+          "raw": "0x0000000000000000000000000000000000000000000043819d6e589cf479b771",
+          "decoded": 318789528439717294094193
+        },
+        "mintPrice()": {
+          "error": "execution reverted: 0x"
+        },
+        "price()": {
+          "error": "execution reverted: 0x"
+        },
+        "paused()": {
+          "error": "execution reverted: 0x"
+        },
+        "owner()": {
+          "error": "execution reverted: 0x"
+        },
+        "name()": {
+          "error": "execution reverted: 0x"
+        },
+        "symbol()": {
+          "error": "execution reverted: 0x"
+        },
+        "decimals()": {
+          "error": "execution reverted: 0x"
+        },
+        "MAX_PER_WALLET()": {
+          "error": "execution reverted: 0x"
+        },
+        "maxPerWallet()": {
+          "error": "execution reverted: 0x"
+        },
+        "remainingSupply()": {
+          "error": "execution reverted: 0x"
+        },
+        "availableSupply()": {
+          "error": "execution reverted: 0x"
+        }
+      }
+    },
+    "hash21-token": {
+      "address": "0x6a87DE92deb752c6162CF80Bd16E3eFd4BDc6D90",
+      "code_len": 2164,
+      "getters": {
+        "totalSupply()": {
+          "raw": "0x0000000000000000000000000000000000000000000043819d6e589cf479b771",
+          "decoded": 318789528439717294094193
+        },
+        "maxSupply()": {
+          "error": "execution reverted: 0x"
+        },
+        "MAX_SUPPLY()": {
+          "error": "execution reverted: 0x"
+        },
+        "totalMinted()": {
+          "error": "execution reverted: 0x"
+        },
+        "mintPrice()": {
+          "error": "execution reverted: 0x"
+        },
+        "price()": {
+          "error": "execution reverted: 0x"
+        },
+        "paused()": {
+          "error": "execution reverted: 0x"
+        },
+        "owner()": {
+          "error": "execution reverted: 0x"
+        },
+        "name()": {
+          "raw": "0x000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000064861736832310000000000000000000000000000000000000000000000000000",
+          "decoded": "Hash21"
+        },
+        "symbol()": {
+          "raw": "0x000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000044841534800000000000000000000000000000000000000000000000000000000",
+          "decoded": "HASH"
+        },
+        "decimals()": {
+          "raw": "0x0000000000000000000000000000000000000000000000000000000000000012",
+          "decoded": 18
+        },
+        "MAX_PER_WALLET()": {
+          "error": "execution reverted: 0x"
+        },
+        "maxPerWallet()": {
+          "error": "execution reverted: 0x"
+        },
+        "remainingSupply()": {
+          "error": "execution reverted: 0x"
+        },
+        "availableSupply()": {
+          "error": "execution reverted: 0x"
+        }
+      }
+    }
+  },
+  "blockNumber": 133743052
+}
