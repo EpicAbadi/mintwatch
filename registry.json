@@ -1,0 +1,148 @@
+{
+  "chain": "BNB Chain (56)",
+  "note": "Every 'free' claim below was verified against the contract or the project's own docs by the operator before being listed. Live numbers (total/max/remaining) always come from eth_call at poll time; the constants here are only the interpretation frame. A getter that reverts is 'unknown', never zero.",
+  "opportunities": [
+    {
+      "caveats": [],
+      "contract": "0x9e95Da84f1bcc8E5570DAAc99A37EB3f95270904",
+      "free": true,
+      "id": "unsolvable",
+      "links": {
+        "note": "site URL not re-verified at registry build time; contract is the source of truth"
+      },
+      "name": "UNSOLVABLE",
+      "needs": [
+        "totalSupply()",
+        "MAX_SUPPLY()",
+        "name()",
+        "symbol()"
+      ],
+      "notes": "3,333 NFTs, gas only, 1 per .ai Agent ID. Mint needs a challenge + VDF + lottery window (6 windows/day, 15 min each). This agent only reports state; it never mints."
+    },
+    {
+      "caveats": [],
+      "contract": "0x1c759C4e075103b5B250DB5114B832b17B99C456",
+      "free_first": true,
+      "id": "claf-eye",
+      "links": {
+        "site": "https://claf.markets"
+      },
+      "name": "The Claf Eye (EYE)",
+      "needs": [
+        "totalSupply()",
+        "MAX_SUPPLY()",
+        "MAX_PER_WALLET()",
+        "name()",
+        "symbol()"
+      ],
+      "notes": "18,000 max, 30/wallet. First Eye per wallet is free (gas only); eyes 2-10 cost 0.0003 BNB, 11-20 cost 0.0005, 21-30 cost 0.0007. Project's claim of 8,333.3 $CLAF per Eye after presale is unverified."
+    },
+    {
+      "caveats": [],
+      "contract": "0x85294Fd5CffB964E318302B0C03C8f4Ae7BF2fe3",
+      "free_first": true,
+      "id": "forge",
+      "links": {
+        "note": "site URL not re-verified at registry build time; contract is the source of truth"
+      },
+      "name": "Forge Robotics (FRGE)",
+      "needs": [
+        "totalMinted()",
+        "MAX_SUPPLY()",
+        "remainingSupply()",
+        "MAX_PER_WALLET()",
+        "name()",
+        "symbol()"
+      ],
+      "notes": "5,000 max, 2/wallet. First mint per wallet is free; second costs 0.0042029 BNB. Tier is assigned by the contract."
+    },
+    {
+      "caveats": [
+        "no max-supply getter: remaining supply is unknown, not zero"
+      ],
+      "contract": "0x19f125dA1985033f102CA7746Cbd1F6f512CFACd",
+      "free": true,
+      "id": "agent-cards",
+      "links": {
+        "site": "https://playagentcards.com"
+      },
+      "name": "Agent Cards (ACARD)",
+      "needs": [
+        "totalSupply()",
+        "name()",
+        "symbol()"
+      ],
+      "notes": "Gas-only mint, needs an .ai Agent ID + referrer. No max-supply getter on the contract, so remaining supply is unknown; the agent says so instead of inventing a cap."
+    },
+    {
+      "caveats": [
+        "daily slot availability cannot be read from generic getters (day-state getters are not public); check the site at the 07:00 WIB reset",
+        "chain reads 2026-11-15: BAGENT totalSupply equals its MAX_SUPPLY (444.4B), i.e. fully minted \u2014 contradicts the project's earlier stated supply; the claim mechanics are unverified on-chain"
+      ],
+      "contract": "0x9CA1A3eeA74829aA5011c56386b226DB472D0F4f",
+      "free": true,
+      "id": "bagent",
+      "links": {
+        "site": "https://bagent.club"
+      },
+      "name": "BAgent daily claim (BAGENT)",
+      "needs": [
+        "totalMinted()",
+        "owner()"
+      ],
+      "notes": "Free daily mining claim, 1 per Agent ID per day, max 7 lifetime, 888 slots/day, window resets 07:00 WIB. Token contract 0xb50dC583cC6F83750c36789F52d51E12dA664444."
+    },
+    {
+      "caveats": [
+        "the free-registration offer is a site claim, not verifiable from chain reads",
+        "chain reads 2026-11-15: pool totalMinted is 318,789 HASH (18 decimals), well within the project-stated 21M cap"
+      ],
+      "contract": "0x6884D40B10c55A6c2faB2D3c829d41c3C798279D",
+      "free": true,
+      "id": "hash21",
+      "links": {
+        "site": "https://hash21.online"
+      },
+      "name": "Hash21 free miner (HASH)",
+      "needs": [
+        "totalMinted()"
+      ],
+      "notes": "Free 1H miner registration (gas only); 4 USDT activation buys +4H. Token 0x6a87DE92deb752c6162CF80Bd16E3eFd4BDc6D90.",
+      "scale": 18,
+      "unit": "HASH"
+    },
+    {
+      "caveats": [],
+      "contract": "0x95AF9fe16fE5c1741b5E3F1b3b045a8c2470eca9",
+      "free": false,
+      "free_exhausted": "free allocation exhausted: 10,435 of 11,000 shares minted (token totalSupply 104,350,000,000 of 143,000,000,000 max); remaining shares are PAID at 0.5 USDT",
+      "id": "pacture",
+      "links": {
+        "site": "https://pacture.pvpmint.com"
+      },
+      "name": "Pacture (PACTURE)",
+      "needs": [],
+      "notes": "Kept as a reference so the feed shows a paid-only verdict. Token 0x10b80088fDAf9363d83671BE66b64f231f9e92f6. The mint contract exposes no generic supply getters, so state is derived from the token contract."
+    },
+    {
+      "caveats": [],
+      "contract": "0x59661d7F8f996F687CD98c116cCaf66eFd254076",
+      "free": true,
+      "id": "solvd",
+      "links": {
+        "note": "site URL not re-verified at registry build time; contract is the source of truth"
+      },
+      "name": "SOLVD",
+      "needs": [
+        "totalSupply()",
+        "MAX_SUPPLY()",
+        "totalMinted()",
+        "name()",
+        "symbol()"
+      ],
+      "notes": "Kept as a reference so the feed shows a sold-out verdict. 1 per wallet, challenge-based mint."
+    }
+  ],
+  "updated": "2026-11-15",
+  "version": "0.1.0"
+}
