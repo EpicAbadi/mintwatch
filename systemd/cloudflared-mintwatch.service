@@ -1,0 +1,20 @@
+[Unit]
+Description=Cloudflare quick tunnel for MintWatch (public HTTPS)
+After=network-online.target mintwatch.service
+Wants=network-online.target
+Requires=mintwatch.service
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/mintwatch
+# Outbound-only tunnel: no inbound firewall change needed.
+# Prints the public https://*.trycloudflare.com URL on start; the URL is
+# stable while this service keeps running. See docs/VERIFICATION.md for
+# the live URL and how it was verified from the internet.
+ExecStart=/usr/local/bin/cloudflared tunnel --url http://127.0.0.1:8891
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

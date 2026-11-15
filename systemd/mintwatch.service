@@ -1,0 +1,17 @@
+[Unit]
+Description=MintWatch — BSC Free-Mint Radar Agent
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/mintwatch
+ExecStart=/usr/bin/python3 /home/ubuntu/mintwatch/mintwatch.py --host 127.0.0.1 --port 8891 --interval 300
+Restart=on-failure
+RestartSec=10
+# No secrets, no keys: the agent is read-only and uses public RPC.
+Environment=MINTWATCH_DATA=/home/ubuntu/mintwatch/data
+
+[Install]
+WantedBy=multi-user.target
